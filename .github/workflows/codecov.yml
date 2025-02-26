@@ -28,6 +28,8 @@ env:
   B2_LINK: shared
   LCOV_BRANCH_COVERAGE: 0
   CODECOV_NAME: Github Actions
+  LCOV_VERSION: v2.3
+  LCOV_OPTIONS: "--ignore-errors mismatch,inconsistent,unused"
 
 jobs:
   posix:
